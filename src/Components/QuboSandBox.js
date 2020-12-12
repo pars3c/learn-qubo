@@ -11,7 +11,7 @@ const QuboForm = ({ onChange }) => {
     </div>
   )
 }
-// TODO: GIVE BETTER NAMES TO VARIABLES
+// TODO: GIVE BETTER NAMES TO VARIABLES2
 const QuboMatrix = (props) => {
   console.log(props.data.value)
   let superArray = new Array(props.data.value**2).fill(0)
